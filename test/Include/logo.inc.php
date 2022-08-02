@@ -1,0 +1,1 @@
+<h1><a href="Pixmodels-Graphiste3d-Webdesigner-freelance.html"><img alt="logo pixmodels 2015" src="Images/logo-pixmodels-graphiste-freelance.png" height="50" width="50" /><span id="Title"><strong>Pix</strong>models</span></a></h1>

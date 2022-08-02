@@ -1,0 +1,7 @@
+User-Agent: *    
+Disallow:http://pixmodels.com/Styles/
+Disallow:http://pixmodels.com/Javascript/
+Disallow:http://pixmodels.com/Includes/
+Disallow:http://pixmodels.com/google50469ac81a9203f1.html
+
+Sitemap: http://pixmodels.com/sitemap.xml

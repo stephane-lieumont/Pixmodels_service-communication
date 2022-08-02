@@ -1,0 +1,39 @@
+#Contact {background-color:#ecf0f1}
+#Contact blockquote{color:#999}
+#Contact .resume{float:left;width:55%;}
+
+#Contact .contain{max-width:1100px; margin:0 auto;}
+#Contact .descSection {background:rgba(255,255,255,0.5); padding:4%;  }
+#Contact .descSection p, #Informations .descSection p{color:#545454;}
+#Contact .descSection h3 {color:#959088;line-height:1.2em;}
+#Contact .descSection h3 span{font-size:0.8em;}
+#Contact .coordonnees li{clear:left;width:100%;display:block;color:#959088;text-align:left;}
+#Contact .coordonnees .hi-icon{font-size:1.2em;line-height:30px;height:30px;width:30px;border-color:#959088;color:#959088;}
+#Contact .coordonnees div{float:left;	display:inline-block;}
+#Contact .coordonnees{width:45%;	margin:0;margin-top:30px;float:right;}
+#Contact .coordonnees p{line-height:54px;font-size:1.2em;}
+#formContact{background:#ecf0f1; overflow:hidden;}
+#formContact label{color:#959088;}
+#formContact form{margin: 50px auto;}
+#formContact .btn_center input{margin-bottom: 0px;}
+#formContact .BGminimize{position:static;overflow:hidden;padding:0;margin:0;	max-height:470px;}
+.parallax-window, .BG_imgLocalise{ min-height:400px; margin-bottom:100px;}
+
+a[href^="tel:"]{color:#545454!important;text-decoration:none!important;}
+
+/* Responsive */
+@media screen and (max-width:1280px){
+	#Contact .coordonnees{width:400px;}
+}
+
+@media screen and (max-width:960px){
+	#Contact .resume{float:none;width:100%}
+	#Contact .coordonnees{width:100%;float:none;}
+	#Contact .coordonnees p{font-size:1em;}
+}
+
+@media screen and (max-width:660px){	
+	#formContact .BGminimize{
+		display:none;
+	}
+}

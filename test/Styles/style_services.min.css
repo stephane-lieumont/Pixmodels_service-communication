@@ -1,0 +1,31 @@
+#prestation{padding-bottom:0;background:#ecf0f1}
+#prestation blockquote{padding-bottom:40px;color:#999}
+#prestation #serviceweb,#servicePrint,#service3d{margin-top:0;display:table;height:100%}
+#prestation #serviceweb{background-color:#ecf0f1}
+#prestation #servicePrint,#service3d{background-color:#f8f8f8}
+#prestation #servicePrint{margin-bottom:100px}
+#prestation #servicePrint .resume h3{margin-top:20px;text-align:center;color:#959088}
+#prestation #servicePrint .resume li{display:table-cell;padding:0 10px}
+#prestation .rightPresta .resume{float:left}
+#prestation .rightPresta .imgServ{float:right}
+#prestation .imgServ{display:table-cell;width:200px;height:200px;vertical-align:top;text-align:center;padding-top:20px}
+#prestation .imgServ .hi-icon{cursor:default}
+#prestation .imgServ span{font-size:.4em;color:#959088;line-height:.9em}
+#prestation .resume{width:75%;display:table-cell;vertical-align:middle;color:#545454;text-align:left}
+#prestation .listTech,#prestation .listOpt{width:100%;margin-top:20px}
+#prestation .listTech li,#prestation .listOpt li{float:left;width:24%;margin:.5%;line-height:35px;text-align:center;color:#fff;cursor:default;min-width:120px;display:inline;text-align:center}
+#prestation .listOpt{width:100%;max-width:700px;overflow:hidden;margin:0 auto;margin-top:40px}
+#prestation .listOpt span{color:#bbb}
+#prestation .listOpt li{color:#bbb;font-size:3.5em;line-height:60px;height:110px;width:25%;margin:0;padding:0;text-align:center}
+#prestation span{width:200%;margin-left:-50%;margin-top:30px;display:block;font-size:.27em;line-height:10px;font-family:'Maven Pro',sans-serif;color:#79756e}
+@media screen and (max-width:960px) {
+#prestation .imgServ,#prestation .resume{display:block;width:100%}
+#prestation .rightPresta .resume{float:none}
+#prestation .rightPresta .imgServ{float:none}
+}
+@media screen and (max-width:700px) {
+#prestation #servicePrint .resume li{float:none;width:100%;display:block}
+#prestation #servicePrint .resume h3{text-align:left}
+#prestation .listOpt li{width:50%;display:inline;text-align:center;margin-bottom:10px}
+#prestation .listTech li{width:49%;display:inline;text-align:center}
+}
