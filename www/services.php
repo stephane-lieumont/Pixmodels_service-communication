@@ -20,6 +20,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>		
 	</head>
 	<body>
+		<div class="demo-banner">DEMO</div>
 		<header>
 			<?php include "Includes/header.inc.php";?>
 			<section id="bandeau">

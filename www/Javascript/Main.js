@@ -88,7 +88,8 @@ function MainJS_init(){
 	ContactOnLoad();
 
 	function ContactOnLoad(){
-			$('#form_contact, #form_contact_index').submit(function(){
+			$('#form_contact, #form_contact_index').submit(function(e){
+				e.preventDefault();
 			$("#nom").parent(".champ").removeClass("erreur_form");
 			$("#email").parent(".champ").removeClass("erreur_form");
 			$("#sujet").parent(".champ").removeClass("erreur_form");

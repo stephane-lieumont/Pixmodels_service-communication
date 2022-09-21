@@ -21,6 +21,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
+	<div class="demo-banner">DEMO</div>
 		<header>
 			<?php include "Includes/header.inc.php";?>
 			<section id="bandeau">
@@ -37,8 +38,8 @@
 				<hr>				
 				<div id="info_sup">
 					<picture>
-						<img id="autoPortrait" srcset="Images/Auto-portrait-Pixmodels.jpg 135w,  Images/Auto-portrait-Pixmodels_small.jpg 90w"  sizes="('min-width: 30em ) 50.0vw, 100vw"
-					   src="Images/Auto-portrait-Pixmodels_small.jpg" alt="Caricature de Stéphane Lieumont - Pixmodels" width="635" height="355"/>
+						<img id="autoPortrait" srcset="Images/Auto-Portrait-Pixmodels.jpg 135w,  Images/Auto-Portrait-Pixmodels_small.jpg 90w"  sizes="('min-width: 30em ) 50.0vw, 100vw"
+					   src="Images/Auto-Portrait-Pixmodels_small.jpg" alt="Caricature de Stéphane Lieumont - Pixmodels" width="635" height="355"/>
 					</picture>
 					<div id="exp_info">						
 						<ul>

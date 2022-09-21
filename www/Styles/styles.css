@@ -163,7 +163,7 @@ textarea.erreur_form{background:url("img/erreur.png") no-repeat top 10px right 2
 .msg{position:absolute;top:35%;width:100%;text-align:center;}
 .msg h2{position:relative;color:#fff;line-height:1.6;font-weight:400;text-transform:uppercase;font-size:2.5em;color:#fff;}
 .msg p{font-size:1.5em;padding:8px 0px;line-height:1.3;color:#fff;}
-.letterfx{display:inline-block;margin:0;padding:0;transition:all 1s;-ms-transition:all 1s;-webkit-transition:all 1s}.letterfx-spin-before{transform:rotate(3600deg);-ms-transform:rotate(3600deg);-webkit-transform:rotate(3600deg)}.letterfx-spin-after{transform:none}.letterfx-fade-before{opacity:0}.letterfx-grow-before{transform:scale(0,0);-ms-transform:scale(0,0);-webkit-transform:scale(0,0)}.letterfx-grow-after{transform:none}.letterfx-smear-before{color:transparent;text-shadow:-1px -1px 25px transparent}.letterfx-smear-after{color:inherit;text-shadow:0 0 #333}.letterfx-fall-before{visibility:hidden;transform:scale(3,3);-ms-transform:scale(3,3);-webkit-transform:scale(3,3)}.letterfx-fall-after{transform:scale(1,1);-ms-transform:scale(1,1);-webkit-transform:scale(1,1);text-shadow:0}.letterfx-swirl-before{visibility:hidden;transform:scale(3,3) rotate(3600deg);-ms-transform:scale(3,3) rotate(3600deg);-webkit-transform:scale(3,3) rotate(3600deg)}.letterfx-swirl-after{transform:none text-shadow:0}.letterfx-wave-container .letterfx{position:relative}.letterfx-wave-before{bottom:0}.letterfx-wave-after{bottom:15px}.letterfx-fly-left-container .letterfx,.letterfx-fly-right-container .letterfx,.letterfx-fly-top-container .letterfx,.letterfx-fly-bottom-container .letterfx{position:relative}.letterfx-fly-left-before{left:-50em}.letterfx-fly-left-after{left:0}.letterfx-fly-right-before{right:-50em}.letterfx-fly-right-after{right:0}.letterfx-fly-top-before{top:-20em}.letterfx-fly-top-after{top:0}.letterfx-fly-bottom-before{bottom:-20em}.letterfx-fly-bottom-after{bottom:0}
+.letterfx{display:inline-block;margin:0;padding:0;transition:all 1s;-ms-transition:all 1s;-webkit-transition:all 1s}.letterfx-spin-before{transform:rotate(3600deg);-ms-transform:rotate(3600deg);-webkit-transform:rotate(3600deg)}.letterfx-spin-after{transform:none}.letterfx-fade-before{opacity:0}.letterfx-grow-before{transform:scale(0,0);-ms-transform:scale(0,0);-webkit-transform:scale(0,0)}.letterfx-grow-after{transform:none}.letterfx-smear-before{color:transparent;text-shadow:-1px -1px 25px transparent}.letterfx-smear-after{color:inherit;text-shadow:0 0 #333}.letterfx-fall-before{visibility:hidden;transform:scale(3,3);-ms-transform:scale(3,3);-webkit-transform:scale(3,3)}.letterfx-fall-after{transform:scale(1,1);-ms-transform:scale(1,1);-webkit-transform:scale(1,1);text-shadow:0}.letterfx-swirl-before{visibility:hidden;transform:scale(3,3) rotate(3600deg);-ms-transform:scale(3,3) rotate(3600deg);-webkit-transform:scale(3,3) rotate(3600deg)}.letterfx-swirl-after{transform:none; text-shadow:0}.letterfx-wave-container .letterfx{position:relative}.letterfx-wave-before{bottom:0}.letterfx-wave-after{bottom:15px}.letterfx-fly-left-container .letterfx,.letterfx-fly-right-container .letterfx,.letterfx-fly-top-container .letterfx,.letterfx-fly-bottom-container .letterfx{position:relative}.letterfx-fly-left-before{left:-50em}.letterfx-fly-left-after{left:0}.letterfx-fly-right-before{right:-50em}.letterfx-fly-right-after{right:0}.letterfx-fly-top-before{top:-20em}.letterfx-fly-top-after{top:0}.letterfx-fly-bottom-before{bottom:-20em}.letterfx-fly-bottom-after{bottom:0}
 .pleft{clear:left;position:relative;float:left;width:48%;margin-top:20px;margin-bottom:20px;}
 .pright{float:right;width:48%;margin-top:20px;margin-bottom:20px;}
 .pfirst:first-letter{float:left;font-size:2.8em;padding:6px 6px 0px 0px;vertical-align:top;line-height:0.85em;display:block;}
@@ -175,6 +175,19 @@ textarea.erreur_form{background:url("img/erreur.png") no-repeat top 10px right 2
 .envoye p{width:300px;margin:0 auto;background:#2ecd71;color:#f3f3f3;padding:3px 0;text-align:center;-webkit-border-radius:20px;-moz-border-radius:20px;-khtml-border-radius:20px;border-radius:20px;}
 img.a{position:absolute;top:0;bottom:0;z-index:10}
 img.b{position:absolute;top:0;bottom:0;opacity:0}
+.demo-banner {
+	position: fixed;
+  top:0;
+  right: 0;
+  background: rgba(0,0,0, 0.5);
+  padding: 10px 100px;
+  color: rgba(255,255,255,0.8);
+  font-weight: 700;
+  transform: translate(70px, 50%) rotate(45deg);
+  z-index: 99999;
+  opacity: 0.5;
+}
+
 /* RESPONSIVES */
 @media screen and (max-width:1600px){#bandeau{height:470px;}
 }

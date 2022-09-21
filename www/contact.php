@@ -50,6 +50,7 @@
 		<link href="Styles/styles.css" type="text/css" rel="stylesheet">	
 	</head>
 	<body>
+		<div class="demo-banner">DEMO</div>
 		<header>
 			<?php include "Includes/header.inc.php";?>
 			<?php 			
@@ -88,7 +89,7 @@
 				</div>
 			</section>
 			<section id="Sform_contact">
-				<form id="form_contact" action="Pixmodels-Contact-web-freelance-midi-pyrenees.html" method="post">
+				<form id="form_contact" action="#">
 					<div class="block_left"> 
 						<div class="champ">
 							<label for="nom">Votre Nom (*) :</label>
@@ -120,7 +121,7 @@
 					<div class="block_full">
 						<label for="message">Message (*):</label>	
 						<textarea class="champ" id="message" name="message"></textarea><br />
-						<input class="bouton" type="submit" value="Envoyer" />
+						<input class="bouton" type="submit" onclick="(e) => { e.preventDefault() }" value="Envoyer" />
 					</div>
 				</form>
 				<p class="clear_left"> (*) Champs obligatoires </p>

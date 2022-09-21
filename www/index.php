@@ -31,7 +31,8 @@
 		<meta charset="UTF-8">
 		<title>Pixmodels - Graphiste et Web, Développez votre Communication.</title>
 		<meta content="Pixmodels" property="og:site_name">
-		<meta content="fr_FR" property="og:locale">
+		<meta name="robots" content="noindex">
+ 		<meta content="fr_FR" property="og:locale">
 		<meta content="website" property="og:type">
 		<meta content="Pixmodels - Graphiste et Web, Devellopez votre Communication." property="og:title">
 		<meta content="Spécialiste dans le domaine du Web, je vous propose de donner vie à vos projets grâce à internet! 
@@ -52,6 +53,7 @@
 		<link rel="stylesheet" type="text/css" href="megafolio/css/settings.css" media="screen" />
 	</head>
 	<body>
+		<div class="demo-banner">DEMO</div>
 		<header id="header" role="banner">
 			<?php include "Includes/header.inc.php";?>
 			<?php if($envoi == true){ echo"<div class='envoye'><p>Votre message a bien été envoyé</p></div>";	}	?>
@@ -70,7 +72,7 @@
 				<div id="portrait"><img src="Images/Auto-portrait-min-Pixmodels.jpg" alt="auto-portrait pixmodels" width="200" height="200" /></div>
 				<ul id="listServices">
 					<li class="block" id="logoGraph">
-						<a href="Pixmodels-Services-web-graphisme-freelance-midi-pyrenees.html#presta_3d">
+						<a href="services.php#presta_3d">
 							<h4>Graphiste 3D</h4>
 							<div class="hover">
 								<picture>
@@ -87,7 +89,7 @@
 						</a>
 					</li>
 					<li class="block" id="logoVideos">
-						<a href="Pixmodels-Services-web-graphisme-freelance-midi-pyrenees.html#list_presta">
+						<a href="services.php#list_presta">
 							<h4>Vidéos</h4>
 							<div class="hover">
 								<picture>
@@ -104,7 +106,7 @@
 						</a>
 					</li>
 					<li class="block" id="logoWeb">
-						<a href="Pixmodels-Services-web-graphisme-freelance-midi-pyrenees.html#presta_web">
+						<a href="services.php#presta_web">
 							<h4>Web-designer</h4>
 							<div class="hover">
 								<picture>
@@ -121,7 +123,7 @@
 						</a>
 					</li>
 					<li class="block" id="logoLogo">
-						<a href="Pixmodels-Services-web-graphisme-freelance-midi-pyrenees.html#list_presta">
+						<a href="services.php#list_presta">
 							<h4>Logos</h4>
 							<div class="hover">
 								<picture>
@@ -504,7 +506,7 @@
 				<div id="slide_web">
 					<article id="Site1" data-name="Coins1"  data-year="2014">				
 						<div class="pleft">
-							<p class="bouton_plus"><a href="http://www.coins-recettes.fr"  target="_blank" title="coins-recettes.fr">Visiter le site</a></p>
+							<p class="bouton_plus"><a href="#"  target="_blank" title="coins-recettes.fr">Visiter le site</a></p>
 							<div class="crea_web_slide">
 								<ul class="slides">
 									<li><img alt="" src="Images/Portfolio/Web/Coins-recettes-fr_apercu.png" width="485" height="328" /></li>
@@ -531,7 +533,7 @@
 					</article>		
 					<article id="Site2" data-name="Coins2" data-year="2014">					
 						<div class="pleft">
-							<p class="bouton_plus"><a href="http://www.mademoiselle-madame.fr"  target="_blank" title="mademoiselle-madame.fr">Visiter le site</a></p>
+							<p class="bouton_plus"><a href="#"  target="_blank" title="mademoiselle-madame.fr">Visiter le site</a></p>
 							<div class="crea_web_slide">
 								<ul class="slides">
 									<li><img alt="" src="Images/Portfolio/Web/mademoiselle-madame_apercu.png" width="485" height="328" /></li>
