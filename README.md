@@ -1,5 +1,5 @@
 # Pixmodels - Service de communication audio-visuelle
-Présentation des prestation de pixmodels, société de services pour la prestation de supports de communication
+Présentation des prestation de pixmodels, société de services en supports de communication
 
 ## Deploiement de l'application avec docker-compose  
 - Executer la commande : ``` docker stop stack-php-1 stack-pixmodels-1 ```
