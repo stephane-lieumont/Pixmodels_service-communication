@@ -53,7 +53,7 @@
 		<link rel="stylesheet" type="text/css" href="megafolio/css/settings.css" media="screen" />
 	</head>
 	<body>
-		<div class="demo-banner">DEMO</div>
+		<?php if( $_ENV["DEMO"] = "true" ) { echo '<div class="demo-banner">DEMO</div>'; } ?>
 		<header id="header" role="banner">
 			<?php include "Includes/header.inc.php";?>
 			<?php if($envoi == true){ echo"<div class='envoye'><p>Votre message a bien été envoyé</p></div>";	}	?>
