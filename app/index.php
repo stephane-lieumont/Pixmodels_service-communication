@@ -142,7 +142,7 @@
 				</ul>
 				<div id="pservices">
 					<div class="pleft">
-						<div class="zigzag"><h3>Pourquoi faire appel à un professionnel du Dev de ouf ?</h3></div>
+						<div class="zigzag"><h3>Pourquoi faire appel à un professionnel ?</h3></div>
 						<p class="pfirst">Le web et les illustrations sont des outils indispensables pour
 						donner une image sérieuse et engagée d’une entreprise.<br />
 						Un professionnel peut façonner votre site à l’image de votre 
